@@ -1,0 +1,22 @@
+.text{
+  position: absolute;
+  height: 50px;
+  font-size: 30px;
+  animation: fall 3s linear forwards infinite;
+
+}
+
+@keyframes fall {
+  
+  from{transform: translateY(0px) scale(1);}
+  25% {transform: translateY(250px) scale(1);}
+  50% {transform: translateY(500px) scale(1);}
+  75% {transform: translateY(750px) scale(1);}
+  to {transform: translateY(1020px) scale(1);}
+}
+
+body{
+  background-color: black;
+  color: rgb(60, 185, 60);
+  font-family: 'Courier New', Courier, monospace;
+}
